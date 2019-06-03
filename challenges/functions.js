@@ -41,7 +41,10 @@ console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
+
+
 // Explanation: 
+// Because `internal` was created within `myFunction()` scope and `nestedFunction()` was also created within `myFunction()` scope, `nestedFunction()` can access `internal`.
 
 
 const external = "I'm outside the function";
